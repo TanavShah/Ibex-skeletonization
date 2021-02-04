@@ -10,7 +10,6 @@ dset = f['main']
 print(dset.shape)
 
 n1 = np.array(dset)
-print(len(n1), len(n1[0]), len(n1[0][0]))
 
 indices = np.random.randint(374, size=(5))
 cnt = 0
